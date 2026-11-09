@@ -377,7 +377,7 @@ def main():
     print()
 
     print("[Step 1] Select project folder")
-    proj_dir = pick_folder("Select project folder (PpSs / ExportedProject / Assets)")
+    proj_dir = pick_folder("Select project folder (ProjectName / ExportedProject / Assets)")
     if proj_dir is None:
         print("[x] No project folder selected")
         return
